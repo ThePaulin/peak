@@ -575,7 +575,7 @@
       }
     },
     "email_signup_newsletter": {
-      "type": "email-signup",
+      "type": "section",
       "blocks": {
         "email_signup_heading": {
           "type": "heading",
@@ -628,20 +628,34 @@
             "padding-inline-end": 0
           },
           "blocks": {}
+        },
+        "email_signup_form": {
+          "type": "email-signup",
+          "settings": {
+            "width": "custom",
+            "custom_width": 50,
+            "style_class": "button-primary",
+            "display_type": "arrow",
+            "label": "Subscribe",
+            "integrated_button": true,
+            "border_style": "underline",
+            "input_type_preset": "paragraph",
+            "button_type_preset": "button",
+            "inherit_color_scheme": false,
+            "color_scheme": "scheme-2"
+          }
         }
       },
       "block_order": [
         "email_signup_heading",
-        "email_signup_paragraph"
+        "email_signup_paragraph",
+        "email_signup_form"
       ],
       "name": "Newsletter",
       "settings": {
         "section_width": "page-width",
-        "layout": "centered",
-        "image": "",
-        "image_position": "center",
-        "image_fit": "cover",
-        "image_parallax": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "gap": 16,
         "color_scheme": "scheme-2",
         "padding-block-start": 80,
         "padding-block-end": 80
