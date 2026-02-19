@@ -578,7 +578,7 @@
       "type": "section",
       "blocks": {
         "email_signup_heading": {
-          "type": "heading",
+          "type": "text",
           "name": "t:names.heading",
           "settings": {
             "text": "<h2>Join the family</h2>",
@@ -632,8 +632,7 @@
         "email_signup_form": {
           "type": "email-signup",
           "settings": {
-            "width": "custom",
-            "custom_width": 50,
+            "width": "fill",
             "style_class": "button-primary",
             "display_type": "arrow",
             "label": "Subscribe",
